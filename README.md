@@ -16,6 +16,12 @@ Display expected value:
 ### Required libraries to install:
 - matplotlab (https://pypi.org/project/matplotlib/)
 - mplcursors (https://pypi.org/project/mplcursors/)
+##### Installing with pip:
+- ```pip install matplotlib```
+- ```pip install mplcursors```
+##### Installing with conda:
+- ```conda install -c conda-forge matplotlib```
+- ```conda install -c conda-forge mplcursors```
 
 ### Running in console:
 
