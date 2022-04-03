@@ -83,17 +83,17 @@ def sbinom(n, p):
     return {i: dbinom(i, n, p) for i in range(n+1)}
 
 
-def sgeom(p, last):
-    return {i: dgeom(i, p) for i in range(1, last+1)}
+def sgeom(p, to=50):
+    return {i: dgeom(i, p) for i in range(1, to+1)}
 
 
-def snbinom(n, p, last):
-    return {i: dnbinom(i, n, p) for i in range(n, last+1)}
+def snbinom(n, p, to=50):
+    return {i: dnbinom(i, n, p) for i in range(n, to+1)}
 
 
 def shyper(r, b, n):
     return {i: dhyper(i, r, b, n) for i in range(min(n, r)+1)}
 
 
-def spois(lam, last):
-    return {i: dpois(i, lam) for i in range(last+1)}
+def spois(lam, to=50):
+    return {i: dpois(i, lam) for i in range(to+1)}
