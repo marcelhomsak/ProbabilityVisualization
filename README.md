@@ -14,12 +14,12 @@ Display expected value:
 ![image](https://user-images.githubusercontent.com/38257325/161432520-4b662cd1-e0e5-45d9-8670-19e97e371c40.png)
 
 ### Required libraries to install:
-- matplotlab
-- mplcursors
+- matplotlab (https://pypi.org/project/matplotlib/)
+- mplcursors (https://pypi.org/project/mplcursors/)
 
 ### Running in console:
 
-python file scheme [expected_value]
+```python file scheme [expected_value]```
 
 schemes:
 - sbinom(n, p)
